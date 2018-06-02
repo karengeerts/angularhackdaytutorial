@@ -16,12 +16,12 @@ export class TodoListComponent implements OnInit {
   remove: EventEmitter<Todo> = new EventEmitter();
 
   @Output()
-  toggeComplete: EventEmitter<Todo> = new EventEmitter();
+  toggleComplete: EventEmitter<Todo> = new EventEmitter();
 
   constructor() { }
 
   onToggleTodoComplete(todo: Todo) {
-    this.onToggleTodoComplete.emit(todo);
+    this.toggleComplete.emit(todo);
   }
 
   onRemoveTodo(todo: Todo) {
