@@ -1,3 +1,7 @@
+# Background
+
+This project was built following this [Angular 2 tutorial](https://www.sitepoint.com/angular-2-tutorial/) during the Angular Hack Day.
+
 # Todo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.5.

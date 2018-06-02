@@ -24,11 +24,19 @@ export class AppComponent {
     this.todoDataService.addTodo(todo);
   }
 
-  toggleTodoComplete(todo) {
+  // toggleTodoComplete(todo) {
+  //   this.todoDataService.toggleTodoComplete(todo);
+  // }
+
+  onToggleTodoComplete(todo: Todo) {
     this.todoDataService.toggleTodoComplete(todo);
   }
 
-  removeTodo(todo) {
+  // removeTodo(todo) {
+  //   this.todoDataService.deleteTodoById(todo.id);
+  // }
+
+  onRemoveTodo(todo: Todo) {
     this.todoDataService.deleteTodoById(todo.id);
   }
 
