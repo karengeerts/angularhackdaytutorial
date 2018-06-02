@@ -6,8 +6,7 @@ import { TodoDataService} from './todo-data.service';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  providers: [TodoDataService]
-})
+  })
 export class AppComponent {
 
   //newTodo: Todo = new Todo();
